@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.small_8_types_and_constants.all;
+
+entity output_port is
+generic
+(
+	WIDTH : natural := CPU_WIDTH
+);
+port
+(
+	output : out std_logic_vector(WIDTH-1 downto 0);
+	databus : in std_logic_vector(WIDTH-1 downto 0);
+	enable,rst : in std_logic;
+);
+end output_port;
+
+architecture bhv of output_port is --note that data is latched to output when enable goes false
+begin
+	process(enable,rst)
+	begin
+		if(rst  = '1') then
+			output <= (others => '0');
+		elsif(falling_edge()

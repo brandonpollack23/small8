@@ -1,0 +1,107 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.small_8_types_and_constants.all;
+
+entity alu is
+generic
+(
+	WIDTH : natural := CPU_WIDTH
+);
+port
+(
+	A,D : in std_logic_vector(WIDTH-1 downto 0);
+	MS_ALU : in std_logic_vector(3 downto 0);
+	MS_INCDEC : in std_logic_vector(1 downto 0);
+	cin : in std_logic;
+	cout, V: out std_logic;
+	output : out std_logic_vector(2*WIDTH-1 downto 0)
+);
+end alu;
+
+architecture bhv of alu is
+
+signal s_A,s_D : signed(WIDTH downto 0); --unsigned versions of the inputs with appropriate bit length for addition/subtraction
+
+begin
+	s_A <= signed('0' & A);
+	s_D <= signed('0' & D);
+	
+	process(MS_ALU,MS_INCDEC,A,D,cin)
+	
+	variable temp : signed(WIDTH downto 0);
+	variable add_val : signed(WIDTH downto 0);
+	variable mul_temp : unsigned(2*WIDTH-1 downto 0);
+	
+	begin
+		temp := (others => '0');
+		
+		cout <= '0';
+		V <= '0'; --default statuses
+		
+		add_val := (others => '0');
+		output <= (others => '0'); --fuck latches
+		
+		case MS_ALU is
+			when "0000" => --and
+				output(WIDTH-1 downto 0) <= A and D;
+			when "0001" => --or
+				output(WIDTH-1 downto 0) <= A or D;
+			when "0010" => --xor
+				output(WIDTH-1 downto 0) <= A xor D;
+			when "0011" => --xnor
+				output(WIDTH-1 downto 0) <= A xnor D;
+			when "0100" => --not
+				output(WIDTH-1 downto 0) <= not A;
+			when "0101" => --add
+				case MS_INCDEC is
+					when "00" => --regular add
+						add_val := s_D + s_signed(cin);
+					when "01" => --inc
+						add_val := to_signed(1,WIDTH+1);
+					when "10" => --dec
+						add_val := to_signed(-1,WIDTH+1);
+					when others =>
+						null;
+				end case;
+				temp := s_A + add_val;
+				cout <= temp(WIDTH);
+				output(WIDTH-1 downto 0) <= std_logic_vector(temp(WIDTH-1 downto 0));
+				V <= (A(WIDTH-1) and D(WIDTH-1) and not temp(WIDTH-1)) or (not A(WIDTH-1) and not D(WIDTH-1) and temp(WIDTH-1));
+			when "0110" => --subtract with borrow
+				temp := s_A - s_D - s_signed(cin);
+				output(WIDTH-1 downto 0) <= std_logic_vector(temp(WIDTH-1 downto 0));
+				if(s_A < (s_D + s_signed(cin))) then
+					cout <= '1';
+				end if;
+				V <= (A(WIDTH-1) and not D(WIDTH-1) and not temp(WIDTH-1)) or (not A(WIDTH-1) and D(WIDTH-1) and temp(WIDTH-1));
+			when "0111" => --multiply
+				mul_temp := unsigned(A) * unsigned(D);
+				output <= std_logic_vector(mul_temp);
+			when "1000" => --logical left shift_left
+				temp := shift_left(signed('0' & A),1);
+				cout <= temp(WIDTH);
+				output(WIDTH-1 downto 0) <= std_logic_vector(temp(WIDTH-1 downto 0));
+			when "1001" => --logical shift right
+				temp := shift_right(signed(A & '0'),1);
+				cout <= temp(0);
+				output(WIDTH-1 downto 0) <= std_logic_vector(temp(WIDTH downto 1));
+			when "1010" => --rotate left with carry
+				temp := shift_left(signed('0' & A),1);
+				temp(0) := cin;
+				cout <= temp(WIDTH);
+				output(WIDTH-1 downto 0) <= std_logic_vector(temp(WIDTH-1 downto 0));
+			when "1011" => --rotate right with carry
+				temp := shift_right(signed(A & '0'),1);
+				temp(WIDTH) := cin;
+				cout <= temp(0);
+				output(WIDTH-1 downto 0) <= std_logic_vector(temp(WIDTH downto 1));
+			when "1100" =>
+				output(WIDTH-1 downto 0) <= A;
+			when others =>
+				null;
+		end case;
+	end process;
+end bhv;
+	
+				

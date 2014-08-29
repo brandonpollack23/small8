@@ -1,0 +1,44 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.math_real.all;
+use work.small_8_types_and_constants.all;
+
+entity address_counter is
+generic
+(
+	ADDRESS_WIDTH : natural := ADDRESS_WIDTH
+);
+port
+(
+	address_count : out std_logic_vector(ADDRESS_WIDTH-1 downto 0);
+	data : in std_logic_vector(ADDRESS_WIDTH-1 downto 0);
+	reg_ld, reg_inc,clk,rst : in std_logic
+);
+end address_counter;
+
+architecture bhv of address_counter is
+
+signal count : unsigned(ADDRESS_WIDTH-1 downto 0);
+signal sel : std_logic_vector(1 downto 0);
+
+begin
+	process(clk,rst)
+	begin
+		if(rst = '1') then
+			count <= (others => '0');
+		elsif(rising_edge(clk)) then
+			case sel is
+				when "00" =>
+					count <= count;
+				when "10" =>
+					count <= count + 1;
+				when others =>
+					count <= unsigned(data);
+			end case;
+		end if;
+	end process;
+	sel <= (reg_inc & reg_ld);
+	address_count <= std_logic_vector(count);	
+end bhv;
+				

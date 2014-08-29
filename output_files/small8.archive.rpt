@@ -1,0 +1,110 @@
+Archive Project report for small8
+Mon Apr 21 18:13:38 2014
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Mon Apr 21 18:13:37 2014 ;
+; Revision Name          ; small8                                ;
+; Top-level Entity Name  ; top_level                             ;
+; Family                 ; Cyclone III                           ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Custom' contains:
+    Info: Programming output files
+    Info: Automatically detected source files
+    Info: Project source and settings files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small8finalBrandonPollack.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'small8.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 356 megabytes
+    Info: Processing ended: Mon Apr 21 18:13:38 2014
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++----------------------------------------------------------------------------------+
+; Files Archived                                                                   ;
++----------------------------------------------------------------------------------+
+; File Name                                                                        ;
++----------------------------------------------------------------------------------+
+; ../lab2/7segmentdisplay/decoder7seg.vhd                                          ;
+; ../lab6/clk_div_2.vhd                                                            ;
+; C:/altera/13.1/quartus/bin64/assignment_defaults.qdf                             ;
+; c:/altera/13.1/quartus/bin64/assignment_defaults.qdf                             ;
+; C:/Users/Brandon/Dropbox/school/DigDes/labs/lab2/7segmentdisplay/decoder7seg.vhd ;
+; C:/Users/Brandon/Dropbox/school/DigDes/labs/lab6/clk_div_2.vhd                   ;
+; CPU_and_memory.vhd                                                               ;
+; cpu_controller.vhd                                                               ;
+; db/small8.db_info                                                                ;
+; finalmult.mif                                                                    ;
+; incremental_db/compiled_partitions/small8.db_info                                ;
+; InternalArch/alu.vhd                                                             ;
+; InternalArch/internal_architecture.vhd                                           ;
+; MemoryMapped/input_port.vhd                                                      ;
+; MemoryMapped/memory_block.vhd                                                    ;
+; MemoryMapped/memory_io_decode.vhd                                                ;
+; MemoryMapped/output_port.vhd                                                     ;
+; output_files/small8.jdi                                                          ;
+; output_files/small8.sof                                                          ;
+; Registers/accumulator.vhd                                                        ;
+; Registers/address_register.vhd                                                   ;
+; Registers/data_register.vhd                                                      ;
+; Registers/instruction_register.vhd                                               ;
+; Registers/status_register.vhd                                                    ;
+; Registers/temp_register.vhd                                                      ;
+; small8.qpf                                                                       ;
+; small8.qsf                                                                       ;
+; small_8.vhd                                                                      ;
+; small_8_types_and_constants.vhd                                                  ;
+; smallram.cmp                                                                     ;
+; smallram.qip                                                                     ;
+; smallram.vhd                                                                     ;
+; test_benches/small8_tb.vhd                                                       ;
+; test_benches/total_tb.vhd                                                        ;
+; testcase3.mif                                                                    ;
+; testprograms/mult.mif                                                            ;
+; top_level.vhd                                                                    ;
++----------------------------------------------------------------------------------+
+
+

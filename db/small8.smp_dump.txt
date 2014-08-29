@@ -1,0 +1,21 @@
+
+State Machine - |top_level|CPU_and_memory:U_PROCESSOR|small_8:U_SMALL_8|cpu_controller:CONTROLLER|state
+Name state.STAA_X0 state.LDAA_X0 state.LOAD_X0 state.RET2 state.RET1 state.RET0 state.CALL_STATE2 state.CALL_STATE1 state.CALL_STATE0 state.STACK1 state.STACK0 state.BRANCH_OPERATION0 state.STAA1 state.STAA0 state.LDAA1 state.LDAA0 state.DECODE state.IR_LD_STATE 
+state.IR_LD_STATE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.DECODE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.LDAA0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.LDAA1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.STAA0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.STAA1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.BRANCH_OPERATION0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.STACK0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.STACK1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.CALL_STATE0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.CALL_STATE1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.CALL_STATE2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.RET0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.RET1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.RET2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.LOAD_X0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.LDAA_X0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STAA_X0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

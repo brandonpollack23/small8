@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CPU_and_memory:U_PROCESSOR|Clk_div_2:U_CLK_DIV|clk'
+Slack : -8.449
+TNS   : -715.090
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -8.212
+TNS   : -953.800
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.105
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CPU_and_memory:U_PROCESSOR|Clk_div_2:U_CLK_DIV|clk'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -300.272
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CPU_and_memory:U_PROCESSOR|Clk_div_2:U_CLK_DIV|clk'
+Slack : -1.941
+TNS   : -133.528
+
+Type  : Slow 1200mV 0C Model Setup 'CPU_and_memory:U_PROCESSOR|Clk_div_2:U_CLK_DIV|clk'
+Slack : -7.609
+TNS   : -637.573
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -7.363
+TNS   : -847.525
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.059
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CPU_and_memory:U_PROCESSOR|Clk_div_2:U_CLK_DIV|clk'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -300.272
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CPU_and_memory:U_PROCESSOR|Clk_div_2:U_CLK_DIV|clk'
+Slack : -1.941
+TNS   : -133.528
+
+Type  : Fast 1200mV 0C Model Setup 'CPU_and_memory:U_PROCESSOR|Clk_div_2:U_CLK_DIV|clk'
+Slack : -4.324
+TNS   : -357.094
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -4.240
+TNS   : -483.165
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.028
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CPU_and_memory:U_PROCESSOR|Clk_div_2:U_CLK_DIV|clk'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -166.664
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CPU_and_memory:U_PROCESSOR|Clk_div_2:U_CLK_DIV|clk'
+Slack : -1.000
+TNS   : -126.000
+
+------------------------------------------------------------

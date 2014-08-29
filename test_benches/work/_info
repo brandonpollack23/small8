@@ -1,0 +1,818 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Brandon\Dropbox\school\DigDes\labs\lab6\simulation
+Eaccumulator
+Z0 w1396240048
+Z1 DPx4 work 27 small_8_types_and_constants 0 22 NiIfUaR86Jb4=8aY8QaRm2
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Brandon\Dropbox\school\DigDes\labs\small8\test_benches
+Z6 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/accumulator.vhd
+Z7 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/accumulator.vhd
+l0
+L7
+Vbl`e[G07FUniY@?L5ef4P2
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1398174070.765000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/accumulator.vhd|
+Z11 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/accumulator.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 ;]c;Y>CoYbobKUO@Dbi8f3
+!i10b 1
+Abhv
+R1
+R2
+R3
+R4
+Z14 DEx4 work 11 accumulator 0 22 bl`e[G07FUniY@?L5ef4P2
+l26
+L22
+VXO3jN]70j[iaRI;iX7INJ3
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 AF7b91X9H5nJY21f8hon<1
+!i10b 1
+Eaddress_counter
+Z15 w1395956081
+R1
+Z16 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+R2
+R3
+R4
+R5
+Z17 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/address_register.vhd
+Z18 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/address_register.vhd
+l0
+L7
+VPLhQ9G_Xe6lV2HDDcn;FO0
+R8
+32
+Z19 !s108 1398174070.843000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/address_register.vhd|
+Z21 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/address_register.vhd|
+R12
+R13
+!s100 N??gnZo^iaYJD4NN97Fbc1
+!i10b 1
+Abhv
+R1
+R16
+R2
+R3
+R4
+Z22 DEx4 work 15 address_counter 0 22 PLhQ9G_Xe6lV2HDDcn;FO0
+l26
+L21
+V20=E9XV2o[4fAGMPWKk7N1
+R8
+32
+R19
+R20
+R21
+R12
+R13
+!s100 NlaNgFSNNQ2cBl^3KdFdX0
+!i10b 1
+Ealu
+Z23 w1396240018
+R1
+R2
+R3
+R4
+R5
+Z24 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/alu.vhd
+Z25 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/alu.vhd
+l0
+L6
+V?>jn4>THC3m5LkRXC:=2T3
+R8
+32
+Z26 !s108 1398174071.088000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/alu.vhd|
+Z28 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/alu.vhd|
+R12
+R13
+!s100 RDzQjZIV?BE^^R>Z3ejb41
+!i10b 1
+Abhv
+R1
+R2
+R3
+R4
+Z29 DEx4 work 3 alu 0 22 ?>jn4>THC3m5LkRXC:=2T3
+l26
+L22
+VTV93QmVAJnjNbR088]n=13
+R8
+32
+R26
+R27
+R28
+R12
+R13
+!s100 >8inZjPYhFI]TO]V9ibiJ2
+!i10b 1
+Eclk_div_2
+Z30 w1394149605
+R3
+R4
+R5
+Z31 8C:/Users/Brandon/Dropbox/school/DigDes/labs/lab6/clk_div_2.vhd
+Z32 FC:/Users/Brandon/Dropbox/school/DigDes/labs/lab6/clk_div_2.vhd
+l0
+L4
+V>W>l;UBW4Y=b`3lEDcIOI0
+!s100 S]?4aTR=:IQ[LgDhV6[892
+R8
+32
+!i10b 1
+Z33 !s108 1398174071.881000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/lab6/clk_div_2.vhd|
+Z35 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/lab6/clk_div_2.vhd|
+R12
+R13
+Abhv
+R3
+R4
+Z36 DEx4 work 9 clk_div_2 0 22 >W>l;UBW4Y=b`3lEDcIOI0
+l16
+L12
+Z37 VcVVDTaLc02D4l2Y]Lb>LD3
+Z38 !s100 go_hjfCl1e;:Sh;=l;:=B2
+R8
+32
+!i10b 1
+R33
+R34
+R35
+R12
+R13
+Ecpu_and_memory
+Z39 w1396483327
+R3
+R4
+R5
+Z40 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/CPU_and_memory.vhd
+Z41 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/CPU_and_memory.vhd
+l0
+L5
+V0I:^QLO3`Ki:nhP<n]J?`0
+R8
+32
+Z42 !s108 1398174071.474000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/CPU_and_memory.vhd|
+Z44 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/CPU_and_memory.vhd|
+R12
+R13
+!s100 J_M5CJ3:B:oP0lc`GjSXZ3
+!i10b 1
+Abhv
+Z45 DEx4 work 12 memory_block 0 22 gkL=oj4f6?=c[m2CC@L4S0
+R36
+Z46 DEx4 work 7 small_8 0 22 Mf4z6DiBA5WRAGB^eCdLY0
+R3
+R4
+Z47 DEx4 work 14 cpu_and_memory 0 22 0I:^QLO3`Ki:nhP<n]J?`0
+l24
+L14
+VW^H4z3gLS4Pg8bXeeb;z:3
+R8
+32
+R42
+R43
+R44
+R12
+R13
+!s100 KcQD;Roa`DZU@jYRiAV0A1
+!i10b 1
+Ecpu_controller
+Z48 w1398126799
+R2
+R1
+R3
+R4
+R5
+Z49 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/cpu_controller.vhd
+Z50 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/cpu_controller.vhd
+l0
+L5
+Vbg8YBUZPR`>le@6O`ek^31
+R8
+32
+Z51 !s108 1398174071.529000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/cpu_controller.vhd|
+Z53 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/cpu_controller.vhd|
+R12
+R13
+!s100 TdX3:?3n6hMGV^<F>=aTT2
+!i10b 1
+Abhv
+R2
+R1
+R3
+R4
+Z54 DEx4 work 14 cpu_controller 0 22 bg8YBUZPR`>le@6O`ek^31
+l44
+L34
+Vk[A:YVjDfCaWkjcLZe[6;0
+R8
+32
+R51
+R52
+R53
+R12
+R13
+!s100 3A47@VMIj^XiYajkUinDj3
+!i10b 1
+Edata_register
+Z55 w1396237163
+R2
+R1
+R3
+R4
+R5
+Z56 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/data_register.vhd
+Z57 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/data_register.vhd
+l0
+L5
+VXonfi960XcVV?3VKIB3n@2
+R8
+32
+Z58 !s108 1398174070.897000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/data_register.vhd|
+Z60 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/data_register.vhd|
+R12
+R13
+!s100 Z@7^@kFb@:f:0DZM>`JQa0
+!i10b 1
+Abhv
+R2
+R1
+R3
+R4
+Z61 DEx4 work 13 data_register 0 22 Xonfi960XcVV?3VKIB3n@2
+l23
+L19
+V9fQIQRWZ>olJ]T5X]N<iY2
+R8
+32
+R58
+R59
+R60
+R12
+R13
+!s100 X_i=<kW;YO^e^U8HR=T>41
+!i10b 1
+Einput_port
+Z62 w1395881616
+R2
+R1
+R3
+R4
+R5
+Z63 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/input_port.vhd
+Z64 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/input_port.vhd
+l0
+L5
+VXQM[nQk<VB[@LX`A]V2`a2
+R8
+32
+Z65 !s108 1398174071.209000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/input_port.vhd|
+Z67 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/input_port.vhd|
+R12
+R13
+!s100 kWh7]>ZS=b;B0g==;9O1E0
+!i10b 1
+Abhv
+R2
+R1
+R3
+R4
+Z68 DEx4 work 10 input_port 0 22 XQM[nQk<VB[@LX`A]V2`a2
+l19
+L18
+Vdb0e;WaDk0lz[0:<5R[@a2
+R8
+32
+R65
+R66
+R67
+R12
+R13
+!s100 48QaSKknj0VfKUPLKS3LG2
+!i10b 1
+Einstruction_register
+Z69 w1395940502
+R3
+R4
+R5
+Z70 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/instruction_register.vhd
+Z71 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/instruction_register.vhd
+l0
+L4
+VXFcTaXZ`1z:k0R>CTRDWH1
+R8
+32
+Z72 !s108 1398174070.954000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/instruction_register.vhd|
+Z74 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/instruction_register.vhd|
+R12
+R13
+!s100 TSJ^_0@WV0N2HlDNX@8U00
+!i10b 1
+Abhv
+R3
+R4
+Z75 DEx4 work 20 instruction_register 0 22 XFcTaXZ`1z:k0R>CTRDWH1
+l15
+L14
+VYaR:>Kngl0_bQ?`k_c<<L3
+R8
+32
+R72
+R73
+R74
+R12
+R13
+!s100 bf6j3OO;aN9AQiH7L4?ib3
+!i10b 1
+Einternal_architecture
+Z76 w1396914298
+R1
+R2
+R3
+R4
+R5
+Z77 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/internal_architecture.vhd
+Z78 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/internal_architecture.vhd
+l0
+L6
+V7EokOK=hU@GgWUM`b6KNc3
+R8
+32
+Z79 !s108 1398174071.147000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/internal_architecture.vhd|
+Z81 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/internal_architecture.vhd|
+R12
+R13
+!s100 k=Z<k1Aj2XVH`MM>M7adE1
+!i10b 1
+Abhv
+Z82 DEx4 work 15 status_register 0 22 BgbH[]iIB0zWA3d8@Gbk]3
+R16
+R22
+Z83 DEx4 work 13 temp_register 0 22 O5FRz8Of?eSn[T=0ARb141
+R75
+R61
+R14
+R29
+R1
+R2
+R3
+R4
+Z84 DEx4 work 21 internal_architecture 0 22 7EokOK=hU@GgWUM`b6KNc3
+l45
+L33
+VD?GOohf[iUaEfHTbLk5130
+R8
+32
+R79
+R80
+R81
+R12
+R13
+!s100 @cBAU6S?`O@ef79=JbWnd0
+!i10b 1
+Ememory_block
+Z85 w1396298398
+R3
+R4
+R5
+Z86 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_block.vhd
+Z87 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_block.vhd
+l0
+L5
+VgkL=oj4f6?=c[m2CC@L4S0
+R8
+32
+Z88 !s108 1398174071.255000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_block.vhd|
+Z90 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_block.vhd|
+R12
+R13
+!s100 KAm2Y36V:^:o@T=0>zS>j2
+!i10b 1
+Abhv
+Z91 DEx4 work 11 output_port 0 22 E`im<6X5jR_BOlCGJ@oNj3
+R1
+R68
+Z92 DPx9 altera_mf 20 altera_mf_components 0 22 zh;bE09gCIPDVLK?MN49L3
+Z93 DEx4 work 8 smallram 0 22 iAk^G>zJmgnMLRiZoLOR?1
+R2
+Z94 DEx4 work 16 memory_io_decode 0 22 ?BeR5WG2Nk1Ynl^G2lZzb1
+R3
+R4
+R45
+l24
+L16
+VB;ZgWHWMS6kh?4OYzlR`V1
+R8
+32
+R88
+R89
+R90
+R12
+R13
+!s100 kk3G=f@LjaR@f1MM0302g1
+!i10b 1
+Ememory_io_decode
+Z95 w1395879130
+R2
+R3
+R4
+R5
+Z96 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_io_decode.vhd
+Z97 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_io_decode.vhd
+l0
+L6
+V?BeR5WG2Nk1Ynl^G2lZzb1
+R8
+32
+Z98 !s108 1398174071.310000
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_io_decode.vhd|
+Z100 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_io_decode.vhd|
+R12
+R13
+!s100 WDb8`kim:jRCPPS5SKdS`0
+!i10b 1
+Abhv
+R2
+R3
+R4
+R94
+l16
+L15
+VKQdgS:4kPW^C9Bf<5c5mE2
+R8
+32
+R98
+R99
+R100
+R12
+R13
+!s100 KT3CV]iRV=m=bRzMF==Pg1
+!i10b 1
+Eoutput_port
+Z101 w1395885114
+R2
+R1
+R3
+R4
+R5
+Z102 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/output_port.vhd
+Z103 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/output_port.vhd
+l0
+L5
+VE`im<6X5jR_BOlCGJ@oNj3
+R8
+32
+Z104 !s108 1398174071.363000
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/output_port.vhd|
+Z106 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/output_port.vhd|
+R12
+R13
+!s100 U^M3[7?5ALGUEGj07fcfF1
+!i10b 1
+Abhv
+R2
+R1
+R3
+R4
+R91
+l19
+L18
+VJHfj4PO0KgiYX7AWBLJZo0
+R8
+32
+R104
+R105
+R106
+R12
+R13
+!s100 5QJDmDddhAnhc9]9NEHkU2
+!i10b 1
+Eram
+Z107 w1396401108
+R92
+R3
+R4
+R5
+Z108 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/ram.vhd
+Z109 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/ram.vhd
+l0
+L42
+V:kB^URMd8_km1f<;B5M1L0
+R8
+32
+Z110 !s108 1398174071.412000
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/ram.vhd|
+Z112 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/ram.vhd|
+R12
+R13
+!s100 XU=DB^]ngzhN30RLXFblR0
+!i10b 1
+Asyn
+R92
+R3
+R4
+DEx4 work 3 ram 0 22 :kB^URMd8_km1f<;B5M1L0
+l59
+L55
+V:8g`CU:TT80RzNe5ZX>:R1
+R8
+32
+R110
+R111
+R112
+R12
+R13
+!s100 AWk_YJdOT:eI;8mnfn>;n2
+!i10b 1
+Esmall8_tb
+Z113 w1396294535
+R2
+R1
+R3
+R4
+R5
+Z114 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/small8_tb.vhd
+Z115 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/small8_tb.vhd
+l0
+L5
+V@K=88RbFYo]gL2FDQ`C]e2
+R8
+32
+Z116 !s108 1398174071.759000
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/small8_tb.vhd|
+Z118 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/small8_tb.vhd|
+R12
+R13
+!s100 8=jk^^IB@49cTA<NSBjo53
+!i10b 1
+Atb
+R46
+R2
+R1
+R3
+R4
+DEx4 work 9 small8_tb 0 22 @K=88RbFYo]gL2FDQ`C]e2
+l18
+L8
+VoPb>C_>GIkhi[n?ITF1Ra3
+R8
+32
+R116
+R117
+R118
+R12
+R13
+!s100 GIDNm9d`EodhGl28YkSTQ1
+!i10b 1
+Esmall_8
+Z119 w1396482278
+R3
+R4
+R5
+Z120 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8.vhd
+Z121 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8.vhd
+l0
+L4
+VMf4z6DiBA5WRAGB^eCdLY0
+R8
+32
+Z122 !s108 1398174071.588000
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8.vhd|
+Z124 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8.vhd|
+R12
+R13
+!s100 lIPaVdh@;kAofT3Fk=VWo2
+!i10b 1
+Abhv
+R84
+R2
+R1
+R54
+R3
+R4
+R46
+l29
+L14
+V_FUN0S7=dmTaj<DT5icNN3
+R8
+32
+R122
+R123
+R124
+R12
+R13
+!s100 ifGim]oAW1_iQ1Gi;>gec2
+!i10b 1
+Psmall_8_types_and_constants
+R2
+R3
+R4
+Z125 w1395944662
+R5
+Z126 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8_types_and_constants.vhd
+Z127 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8_types_and_constants.vhd
+l0
+L5
+VNiIfUaR86Jb4=8aY8QaRm2
+R8
+32
+b1
+Z128 !s108 1398174071.642000
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8_types_and_constants.vhd|
+Z130 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8_types_and_constants.vhd|
+R12
+R13
+!s100 KQR6EcFecQkb_b8C>NXHK1
+!i10b 1
+Bbody
+R1
+R2
+R3
+R4
+l0
+L53
+V0]mSVaQFS>Nd7ibBKMbm81
+R8
+32
+R128
+R129
+R130
+R12
+R13
+nbody
+!s100 TnEXRg0?R9OAl^DoG?mOo3
+!i10b 1
+Esmallram
+Z131 w1398174066
+R92
+R3
+R4
+R5
+Z132 8C:\Users\Brandon\Dropbox\school\DigDes\labs\small8\smallram.vhd
+Z133 FC:\Users\Brandon\Dropbox\school\DigDes\labs\small8\smallram.vhd
+l0
+L42
+ViAk^G>zJmgnMLRiZoLOR?1
+R8
+32
+Z134 !s108 1398174071.701000
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Brandon\Dropbox\school\DigDes\labs\small8\smallram.vhd|
+Z136 !s107 C:\Users\Brandon\Dropbox\school\DigDes\labs\small8\smallram.vhd|
+R12
+R13
+!s100 6cT_1lA2ZKHfViiF[odnH0
+!i10b 1
+Asyn
+R92
+R3
+R4
+R93
+l59
+L55
+VC[8?HSgEI>U;TUQmncYQ30
+R8
+32
+R134
+R135
+R136
+R12
+R13
+!s100 SUiR5UV46hm3_U<0zRC8m0
+!i10b 1
+Estatus_register
+Z137 w1395937991
+R3
+R4
+R5
+Z138 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/status_register.vhd
+Z139 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/status_register.vhd
+l0
+L4
+VBgbH[]iIB0zWA3d8@Gbk]3
+R8
+32
+Z140 !s108 1398174070.997000
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/status_register.vhd|
+Z142 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/status_register.vhd|
+R12
+R13
+!s100 a<IVg;:fN5@jD=RoYzaKm3
+!i10b 1
+Abhv
+R3
+R4
+R82
+l15
+L14
+VjlmWohNd=iDn[Y:@n:d?m1
+R8
+32
+R140
+R141
+R142
+R12
+R13
+!s100 FDnfK>J;^DJF1<?BIlk0d2
+!i10b 1
+Etemp_register
+Z143 w1395864347
+R2
+R1
+R3
+R4
+R5
+Z144 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/temp_register.vhd
+Z145 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/temp_register.vhd
+l0
+L6
+VO5FRz8Of?eSn[T=0ARb141
+R8
+32
+Z146 !s108 1398174071.041000
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/temp_register.vhd|
+Z148 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/temp_register.vhd|
+R12
+R13
+!s100 FP]:dj1kCfgo54D7UjFXJ2
+!i10b 1
+Abhv
+R2
+R1
+R3
+R4
+R83
+l20
+L19
+V>4RG?3Dc>?;fRUTHOn0G91
+R8
+32
+R146
+R147
+R148
+R12
+R13
+!s100 k>Gnln7^EeNRNSZP0oK8@3
+!i10b 1
+Etotal_tb
+Z149 w1398123892
+R2
+R3
+R4
+R5
+Z150 8C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/total_tb.vhd
+Z151 FC:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/total_tb.vhd
+l0
+L5
+V65JizUKgjH_F`m8QX[AdW2
+R8
+32
+Z152 !s108 1398174071.819000
+Z153 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/total_tb.vhd|
+Z154 !s107 C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/total_tb.vhd|
+R12
+R13
+!s100 3AYKoPG[Q4@Dj[4CGCL?n1
+!i10b 1
+Atb
+R47
+R2
+R3
+R4
+DEx4 work 8 total_tb 0 22 65JizUKgjH_F`m8QX[AdW2
+l15
+L8
+VGANkbI80CU_Ck27:dJ1OV0
+!s100 ^X>KfD=>>:a`ehj[LQI^U3
+R8
+32
+R152
+R153
+R154
+R12
+R13
+!i10b 1

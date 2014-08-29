@@ -1,0 +1,27 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity instruction_register is
+port
+(
+	IR_in : in std_logic_vector(7 downto 0); --2^6 is 64 possible instructions, these go to LS 6 bits of the databus
+	IR_out : out std_logic_vector(7 downto 0);
+	IR_LD : in std_logic;
+	clk,rst : in std_logic
+);
+end instruction_register;
+
+architecture bhv of instruction_register is
+begin
+	process(clk, rst)
+	begin
+		if(rst = '1') then
+			IR_out <= (others => '0');
+		elsif(rising_edge(clk)) then
+			if(IR_LD = '1') then
+				IR_out <= IR_in;
+			end if;
+		end if;
+	end process;
+end bhv;
+	

@@ -1,0 +1,46 @@
+Quartus II Archive log --	C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small8finalBrandonPollack.qarlog
+
+Archive:	C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small8finalBrandonPollack.qar
+Date:		Mon Apr 21 18:13:37 2014
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/Brandon/Dropbox/school/DigDes/labs/lab2/7segmentdisplay/decoder7seg.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/lab6/clk_div_2.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/CPU_and_memory.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/alu.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/internal_architecture.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/input_port.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_block.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_io_decode.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/output_port.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/accumulator.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/address_register.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/data_register.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/instruction_register.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/status_register.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/temp_register.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/cpu_controller.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/db/small8.db_info
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/finalmult.mif
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/incremental_db/compiled_partitions/small8.db_info
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/output_files/small8.jdi
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/output_files/small8.sof
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small8.qpf
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small8.qsf
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8_types_and_constants.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/smallram.cmp
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/smallram.qip
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/smallram.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/small8_tb.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/total_tb.vhd
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/testcase3.mif
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/testprograms/mult.mif
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/top_level.vhd
+C:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+c:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 35 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

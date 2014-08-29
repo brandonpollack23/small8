@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity total_tb is
+end total_tb;
+
+architecture tb of total_tb is
+
+signal clk,rst : std_logic;
+signal in1,in0,out1,out0 : std_logic_vector(7 downto 0);

@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity small8_tb is
+end small8_tb;
+
+architecture tb of small8_tb is
+
+signal clk : std_logic;
+signal rst : std_logic;
+signal done : std_logic;
+
+begin
+	done <= '0';
+	
+	clk <= not clk and not done;

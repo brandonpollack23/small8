@@ -1,0 +1,222 @@
+C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/total_tb.vhd {2 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/total_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity total_tb
+-- Compiling architecture tb of total_tb
+-- Loading entity CPU_and_memory
+** Warning: [4] C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/total_tb.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/total_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/ram.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/ram.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram
+-- Compiling architecture SYN of ram
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity small_8
+-- Compiling architecture bhv of small_8
+-- Loading package NUMERIC_STD
+-- Loading package small_8_types_and_constants
+-- Loading entity cpu_controller
+-- Loading entity internal_architecture
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/smallram.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Brandon\Dropbox\school\DigDes\labs\small8\smallram.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity smallram
+-- Compiling architecture SYN of smallram
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/address_register.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/address_register.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package small_8_types_and_constants
+-- Compiling entity address_counter
+-- Compiling architecture bhv of address_counter
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_block.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_block.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity memory_block
+-- Compiling architecture bhv of memory_block
+-- Loading package NUMERIC_STD
+-- Loading entity memory_io_decode
+-- Loading package altera_mf_components
+-- Loading entity smallram
+-- Loading package small_8_types_and_constants
+-- Loading entity input_port
+-- Loading entity output_port
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8_types_and_constants.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/small_8_types_and_constants.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package small_8_types_and_constants
+-- Compiling package body small_8_types_and_constants
+-- Loading package small_8_types_and_constants
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/small8_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/test_benches/small8_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package small_8_types_and_constants
+-- Compiling entity small8_tb
+-- Compiling architecture tb of small8_tb
+-- Loading entity small_8
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/alu.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/alu.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package small_8_types_and_constants
+-- Compiling entity alu
+-- Compiling architecture bhv of alu
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/output_port.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/output_port.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package small_8_types_and_constants
+-- Compiling entity output_port
+-- Compiling architecture bhv of output_port
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/data_register.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/data_register.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package small_8_types_and_constants
+-- Compiling entity data_register
+-- Compiling architecture bhv of data_register
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/instruction_register.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/instruction_register.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity instruction_register
+-- Compiling architecture bhv of instruction_register
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/accumulator.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/accumulator.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package small_8_types_and_constants
+-- Compiling entity accumulator
+-- Compiling architecture bhv of accumulator
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/status_register.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/status_register.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity status_register
+-- Compiling architecture bhv of status_register
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/lab6/clk_div_2.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/lab6/clk_div_2.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Clk_div_2
+-- Compiling architecture bhv of clk_div_2
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/temp_register.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/Registers/temp_register.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package small_8_types_and_constants
+-- Compiling entity temp_register
+-- Compiling architecture bhv of temp_register
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/internal_architecture.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/InternalArch/internal_architecture.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package small_8_types_and_constants
+-- Compiling entity internal_architecture
+-- Compiling architecture bhv of internal_architecture
+-- Loading entity alu
+-- Loading entity accumulator
+-- Loading entity data_register
+-- Loading entity instruction_register
+-- Loading entity temp_register
+-- Loading package MATH_REAL
+-- Loading entity address_counter
+-- Loading entity status_register
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_io_decode.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/memory_io_decode.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_io_decode
+-- Compiling architecture bhv of memory_io_decode
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/CPU_and_memory.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/CPU_and_memory.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CPU_and_memory
+-- Compiling architecture bhv of CPU_and_memory
+-- Loading entity small_8
+-- Loading entity Clk_div_2
+-- Loading entity memory_block
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/input_port.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/MemoryMapped/input_port.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package small_8_types_and_constants
+-- Compiling entity input_port
+-- Compiling architecture bhv of input_port
+
+} {} {}} C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/cpu_controller.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Dropbox/school/DigDes/labs/small8/cpu_controller.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package small_8_types_and_constants
+-- Compiling entity cpu_controller
+-- Compiling architecture bhv of cpu_controller
+
+} {} {}}

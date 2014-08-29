@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.small_8_types_and_constants.all;
+
+entity cpu_controller is
+port
+(
+	MSA : out std_logic_vector(1 downto 0);
+	MS_ALU : out std_logic_vector(3 downto 0);
+	IR_LD : out std_logic;
+	Z,S,C,V : in std_logic;
+	clk,rst : in std_logic;

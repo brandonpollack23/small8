@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.small_8_types_and_constants.all;
+
+entity input_port is
+generic
+(
+	WIDTH : natural := CPU_WIDTH;
+port
+(
+	input : in std_logic_vector(WIDTH-1 downto 0);
+	databus : out std_logic_vector(WIDTH-1 downto 0)
